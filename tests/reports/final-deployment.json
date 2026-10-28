@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "mainPort": 3000,
+  "production": true,
+  "demo": true,
+  "catalogCount": 1032,
+  "advisorRoles": 4,
+  "connectedModel": false,
+  "imageAi": false,
+  "stripe": false,
+  "mainQueues": {
+    "workers": 2,
+    "active": 0,
+    "queued": 0,
+    "llmConnected": false
+  },
+  "head200": true,
+  "hydratedForm": true,
+  "tabletNavigation": true,
+  "skillHashesMatch": true,
+  "snapshotSeed": 2401026,
+  "rawStudioTokenInSnapshot": false,
+  "errors": []
+}

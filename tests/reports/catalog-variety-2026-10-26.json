@@ -1,0 +1,73 @@
+{
+  "date": "2026-10-26",
+  "feature": "4 new original motif families — 20 families, 1,288 editions",
+  "tests": "52/52",
+  "out": {
+    "checks": {
+      "/": {
+        "status": 200,
+        "ok": true
+      },
+      "/shop": {
+        "status": 200,
+        "ok": true
+      },
+      "/shop?page=54": {
+        "status": 200,
+        "ok": true
+      },
+      "/collections": {
+        "status": 200,
+        "ok": true
+      },
+      "/art/pond-turtle-001": {
+        "status": 200,
+        "ok": true
+      },
+      "/art/royal-elephant-006": {
+        "status": 200,
+        "ok": true
+      }
+    },
+    "previews": {
+      "pond-turtle-001": {
+        "status": 200,
+        "format": "webp",
+        "w": 720,
+        "h": 900,
+        "bytes": 33522
+      },
+      "royal-elephant-032": {
+        "status": 200,
+        "format": "webp",
+        "w": 720,
+        "h": 900,
+        "bytes": 29930
+      },
+      "scroll-garden-048": {
+        "status": 200,
+        "format": "webp",
+        "w": 720,
+        "h": 900,
+        "bytes": 34760
+      },
+      "diya-glow-064": {
+        "status": 200,
+        "format": "webp",
+        "w": 720,
+        "h": 900,
+        "bytes": 23496
+      }
+    },
+    "catalog": 1288,
+    "pagination": {
+      "total": 1288,
+      "pages": 54
+    },
+    "search": {
+      "pondTurtleFamily": 64,
+      "turtleQuery": 64,
+      "diwaliQuery": 64
+    }
+  }
+}

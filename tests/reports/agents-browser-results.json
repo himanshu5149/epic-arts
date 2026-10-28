@@ -1,0 +1,259 @@
+{
+  "passed": true,
+  "date": "2026-10-24",
+  "catalogCount": 1032,
+  "mode": "no-key",
+  "plan": {
+    "count": 3,
+    "budgetUSD": 60,
+    "artworkValueUSD": 56
+  },
+  "zipBytes": 2378349,
+  "zipFiles": [
+    "peacock-rhapsody-018/artwork-2400x3000.png",
+    "peacock-rhapsody-018/artwork-2400x3000.jpg",
+    "peacock-rhapsody-018/artwork-scalable.svg",
+    "peacock-rhapsody-018/print-5x7-inch.pdf",
+    "peacock-rhapsody-018/print-8x10-inch.pdf",
+    "peacock-rhapsody-018/print-A4.pdf",
+    "peacock-rhapsody-018/PRINTING-GUIDE.pdf",
+    "peacock-rhapsody-018/edition.json",
+    "peacock-rhapsody-018/LICENSE.txt"
+  ],
+  "layouts": [
+    {
+      "name": "initial",
+      "width": 320,
+      "overflow": 0
+    },
+    {
+      "name": "initial",
+      "width": 375,
+      "overflow": 0
+    },
+    {
+      "name": "initial",
+      "width": 390,
+      "overflow": 0
+    },
+    {
+      "name": "initial",
+      "width": 600,
+      "overflow": 0
+    },
+    {
+      "name": "initial",
+      "width": 768,
+      "overflow": -15
+    },
+    {
+      "name": "initial",
+      "width": 1024,
+      "overflow": -15
+    },
+    {
+      "name": "initial",
+      "width": 1440,
+      "overflow": -15
+    },
+    {
+      "name": "collection",
+      "width": 320,
+      "overflow": 0
+    },
+    {
+      "name": "collection",
+      "width": 375,
+      "overflow": 0
+    },
+    {
+      "name": "collection",
+      "width": 390,
+      "overflow": 0
+    },
+    {
+      "name": "collection",
+      "width": 600,
+      "overflow": 0
+    },
+    {
+      "name": "collection",
+      "width": 768,
+      "overflow": -15
+    },
+    {
+      "name": "collection",
+      "width": 1024,
+      "overflow": -15
+    },
+    {
+      "name": "collection",
+      "width": 1440,
+      "overflow": -15
+    },
+    {
+      "name": "three-edition checkout",
+      "width": 320,
+      "overflow": 0
+    },
+    {
+      "name": "three-edition checkout",
+      "width": 375,
+      "overflow": 0
+    },
+    {
+      "name": "three-edition checkout",
+      "width": 390,
+      "overflow": 0
+    },
+    {
+      "name": "three-edition checkout",
+      "width": 600,
+      "overflow": 0
+    },
+    {
+      "name": "three-edition checkout",
+      "width": 768,
+      "overflow": -15
+    },
+    {
+      "name": "three-edition checkout",
+      "width": 1024,
+      "overflow": -15
+    },
+    {
+      "name": "three-edition checkout",
+      "width": 1440,
+      "overflow": -15
+    },
+    {
+      "name": "no affordable collection",
+      "width": 320,
+      "overflow": 0
+    },
+    {
+      "name": "no affordable collection",
+      "width": 375,
+      "overflow": 0
+    },
+    {
+      "name": "no affordable collection",
+      "width": 390,
+      "overflow": 0
+    },
+    {
+      "name": "no affordable collection",
+      "width": 600,
+      "overflow": 0
+    },
+    {
+      "name": "no affordable collection",
+      "width": 768,
+      "overflow": -15
+    },
+    {
+      "name": "no affordable collection",
+      "width": 1024,
+      "overflow": -15
+    },
+    {
+      "name": "no affordable collection",
+      "width": 1440,
+      "overflow": -15
+    },
+    {
+      "name": "guide answer",
+      "width": 320,
+      "overflow": 0
+    },
+    {
+      "name": "guide answer",
+      "width": 375,
+      "overflow": 0
+    },
+    {
+      "name": "guide answer",
+      "width": 390,
+      "overflow": 0
+    },
+    {
+      "name": "guide answer",
+      "width": 600,
+      "overflow": 0
+    },
+    {
+      "name": "guide answer",
+      "width": 768,
+      "overflow": -15
+    },
+    {
+      "name": "guide answer",
+      "width": 1024,
+      "overflow": -15
+    },
+    {
+      "name": "guide answer",
+      "width": 1440,
+      "overflow": -15
+    }
+  ],
+  "accessibility": [
+    {
+      "name": "initial desktop",
+      "violations": []
+    },
+    {
+      "name": "collection desktop",
+      "violations": []
+    },
+    {
+      "name": "expanded activity",
+      "violations": []
+    },
+    {
+      "name": "three-edition cart",
+      "violations": []
+    },
+    {
+      "name": "three-edition checkout",
+      "violations": []
+    },
+    {
+      "name": "no affordable collection",
+      "violations": []
+    },
+    {
+      "name": "licensing answer",
+      "violations": []
+    },
+    {
+      "name": "research answer",
+      "violations": []
+    }
+  ],
+  "checks": [
+    "SSR + canonical + public sitemap",
+    "no-key grounded 3-edition budget plan",
+    "no automatic order creation",
+    "private owner/bearer authorization",
+    "four-action audit + consistency verification",
+    "safe downloadable brief",
+    "refresh resume",
+    "reroll exclusions",
+    "Studio handoff without automatic creation",
+    "explicit collection-to-bag",
+    "real three-item checkout",
+    "real 9-file native-vector download",
+    "no over-budget substitution",
+    "sourced license + research answers",
+    "out-of-domain abstention",
+    "lost-response idempotent resume",
+    "private PWA cache exclusion",
+    "private source directories blocked",
+    "cross-origin mutation rejection",
+    "device-only clear"
+  ],
+  "errors": [],
+  "imageErrors": [],
+  "externalRequests": []
+}

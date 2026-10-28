@@ -1,0 +1,46 @@
+/* Inspiration shelf — museum references, keyed to the existing Epic Arts tokens. */
+.inspiration-page{padding-top:56px;padding-bottom:34px}
+.inspiration-heading{display:flex;align-items:flex-end;justify-content:space-between;gap:45px;margin-bottom:32px}
+.inspiration-heading h1{font-size:63px;line-height:1.03;letter-spacing:-.8px;margin-top:17px}
+.inspiration-heading>p{max-width:420px;font-size:11px;line-height:1.9;color:var(--muted);margin-bottom:6px}
+.inline-source{border-bottom:1px solid #969c8a}
+.inline-source:hover{color:var(--terra)}
+.inspiration-bar{display:flex;align-items:center;gap:13px;border:1px solid #d7d8c8;background:#fbfaf3;padding:9px 9px 9px 17px;max-width:660px}
+.inspiration-bar>svg{color:#5d6a51;flex-shrink:0}
+.inspiration-bar input{flex:1;min-width:0;border:0;background:transparent;font-size:12px;outline:none;height:34px}
+.inspiration-bar .button{min-height:39px;padding:9px 18px;gap:13px;flex-shrink:0;font-size:10px}
+.inspiration-chips{display:flex;flex-wrap:wrap;gap:9px;margin:17px 0 26px}
+.inspiration-chips button{font-size:9px;padding:8px 13px;border:1px solid #d7d8c8;background:transparent;color:#5d6a51}
+.inspiration-chips button:hover{border-color:#a9ae9f;color:var(--ink)}
+.inspiration-chips button.selected{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.inspiration-status{display:flex;align-items:center;gap:10px;font-size:10px;color:#5d6a51;padding:40px 0}
+.inspiration-count{font-size:9px;color:var(--muted);margin-bottom:17px;letter-spacing:.3px}
+.inspiration-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:22px}
+.inspiration-card{position:relative;display:flex;flex-direction:column;background:#fbfaf2;border:1px solid var(--line);animation:product-in .45s both}
+.inspiration-thumb{display:block;aspect-ratio:4/4.6;overflow:hidden;background:#e9e6d8}
+.inspiration-thumb img{width:100%;height:100%;object-fit:cover;transition:transform .5s}
+.inspiration-card:hover .inspiration-thumb img{transform:scale(1.05)}
+.inspiration-card-copy{display:flex;flex-direction:column;gap:6px;padding:13px 14px 15px;min-height:0}
+.inspiration-badge{font-size:5.7px;letter-spacing:1.2px;color:#8a6a3f;font-weight:500}
+.inspiration-card-copy strong{font-family:var(--serif);font-size:15.5px;font-weight:400;line-height:1.2}
+.inspiration-card-copy .muted{font-size:8.5px;line-height:1.6}
+.inspiration-open{position:absolute;top:10px;right:10px;width:26px;height:26px;background:#f8f6eec9;border-radius:50%;display:grid;place-items:center;opacity:0;transition:opacity .2s;color:#283c31}
+.inspiration-card:hover .inspiration-open,.inspiration-card:focus-within .inspiration-open{opacity:1}
+.inspiration-empty{display:flex;flex-direction:column;align-items:center;gap:13px;text-align:center;padding:60px 20px;max-width:470px;margin:20px auto;border:1px dashed #c9cab9;background:#fbfaf2}
+.inspiration-empty h2{font-size:29px}
+.inspiration-empty p{font-size:10.5px;line-height:1.9;color:#5d6a51}
+.inspiration-empty .button{margin-top:4px}
+.inspiration-honesty{display:flex;gap:15px;align-items:center;background:#ecebdd;padding:19px 21px;margin-top:34px}
+.inspiration-honesty>svg{flex-shrink:0;color:#7a6b4c}
+.inspiration-honesty p{font-size:9.5px;line-height:1.9;color:#5d5644;flex:1}
+.inspiration-honesty .text-link{flex-shrink:0}
+@media(max-width:1199px){.inspiration-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.inspiration-heading h1{font-size:54px}}
+@media(max-width:959px){.inspiration-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.inspiration-heading h1{font-size:49px}}
+@media(max-width:759px){
+ .inspiration-page{padding-top:36px}
+ .inspiration-heading{flex-direction:column;align-items:flex-start;gap:13px}
+ .inspiration-heading h1{font-size:41px}
+ .inspiration-bar{gap:9px;padding:8px 8px 8px 13px}
+ .inspiration-bar .button{padding:9px 13px}
+ .inspiration-honesty{flex-direction:column;align-items:flex-start}
+}

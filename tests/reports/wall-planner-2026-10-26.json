@@ -1,0 +1,77 @@
+{
+  "date": "2026-10-26",
+  "feature": "wall planner, print-fit helper, free printer test sheet",
+  "tests": "44/44",
+  "checks": [
+    {
+      "path": "/",
+      "status": 200,
+      "len": 97410,
+      "cc": "public, max-age=0, must-revalidate"
+    },
+    {
+      "path": "/wall",
+      "status": 200,
+      "len": 35827,
+      "cc": "public, max-age=0, must-revalidate"
+    },
+    {
+      "path": "/wall?edit=indigo-stories&paper=a4&wall=clay",
+      "status": 200,
+      "len": 35722,
+      "cc": "public, max-age=0, must-revalidate"
+    },
+    {
+      "path": "/print-guide",
+      "status": 200,
+      "len": 24901,
+      "cc": "public, max-age=0, must-revalidate"
+    },
+    {
+      "path": "/art/mithila-garden-001",
+      "status": 200,
+      "len": 51205,
+      "cc": "public, max-age=0, must-revalidate"
+    },
+    {
+      "path": "/shop?page=43",
+      "status": 200,
+      "len": 105018,
+      "cc": "public, max-age=0, must-revalidate"
+    },
+    {
+      "path": "/advisor",
+      "status": 200,
+      "len": 31457,
+      "cc": "private, no-store"
+    },
+    {
+      "path": "/studio",
+      "status": 200,
+      "len": 30871,
+      "cc": "private, no-store"
+    },
+    {
+      "path": "/epic-arts-test-print.pdf",
+      "status": 200,
+      "pdfMagic": true,
+      "bytes": 6467,
+      "ct": "application/pdf"
+    },
+    {
+      "wallTitle": true,
+      "wallCopy": true,
+      "sitemapHasWall": true,
+      "guideHasTestSheet": true,
+      "guideHasFitTool": true,
+      "productLink": true,
+      "homeTeaser": true,
+      "guideNoStore": "public, max-age=0, must-revalidate",
+      "advisorNoStore": "private, no-store",
+      "studioNoStore": "private, no-store"
+    },
+    {
+      "demoEnabled": true
+    }
+  ]
+}

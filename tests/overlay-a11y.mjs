@@ -1,0 +1,8 @@
+import {chromium,expect} from '@playwright/test';
+import AxeBuilder from '@axe-core/playwright';
+import {randomUUID} from 'node:crypto';
+import {writeFileSync} from 'node:fs';
+const base=process.env.TEST_URL||'http://localhost:3000';
+const b=await chromium.launch();const context=await b.newContext({viewport:{width:1440,height:1000}});const p=await context.newPage();await p.emulateMedia({reducedMotion:'reduce'});await p.goto(base+'/art/peacock-pair',{waitUntil:'networkidle'});await p.getByRole('button',{name:'Add a little art to your bag'}).click();let axe=await new AxeBuilder({page:p}).withTags(['wcag2a','wcag2aa','wcag21aa']).analyze();console.log('Cart:',axe.violations.map(v=>({id:v.id,nodes:v.nodes.map(n=>({target:n.target,summary:n.failureSummary}))})));
+await p.keyboard.press('/');await expect(p.getByRole('dialog',{name:'Search the gallery'})).toBeVisible();await expect(p.locator('[role="dialog"]')).toHaveCount(1);await p.keyboard.press('Escape');await expect(p.locator('#root')).not.toHaveAttribute('inert','');
+const r=await context.request.post(base+'/api/checkout',{headers:{'Idempotency-Key':randomUUID()},data:{ids:['peacock-pair'],name:'Accessibility Sample',email:'a11y@example.com',accept:true,mode:'demo'}});const data=await r.json();await p.goto(base+'/library?order='+data.order.id+'&token='+data.accessToken,{waitUntil:'networkidle'});axe=await new AxeBuilder({page:p}).withTags(['wcag2a','wcag2aa','wcag21aa']).analyze();console.log('Populated library:',axe.violations.map(v=>({id:v.id,nodes:v.nodes.map(n=>({target:n.target,summary:n.failureSummary}))})));console.log('QA order:',data.order.id);writeFileSync('tests/last-a11y-order.txt',data.order.id);await b.close();

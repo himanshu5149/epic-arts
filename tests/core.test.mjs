@@ -1,0 +1,13 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+import {priceCart,validateCheckout,validateReview,promotion} from '../server/core.mjs';
+import {metaFor,sitemapFor,headFor} from '../shared/seo.mjs';
+const products=JSON.parse(readFileSync(new URL('../shared/catalog.json',import.meta.url)));
+test('cart pricing is authoritative and deduplicates digital licenses',()=>{const c=priceCart(['tree-of-life','tree-of-life'],products);assert.equal(c.total,2400);assert.equal(c.items.length,1);});
+test('promo pricing uses cents and a normalized allowlisted code',()=>{const c=priceCart(['tree-of-life','peacock-pair'],products,'epic10');assert.equal(c.total,4140);assert.equal(c.discount,460);assert.equal(promotion('EPIC10').percent,10);assert.throws(()=>promotion('FAKE'),/isn’t valid/);});
+test('unknown products and malformed carts are rejected',()=>{for(const ids of [[],['../../etc/passwd'],[123],null,Array(33).fill('surya')])assert.throws(()=>priceCart(ids,products));});
+test('checkout validates consent, mode, and contact details',()=>{const valid={ids:['surya'],name:'A Person',email:'art@example.com',accept:true,mode:'demo'};assert.equal(validateCheckout(valid,products).total,1800);for(const override of [{email:'bad'},{accept:false},{name:'X'},{mode:'free'}])assert.throws(()=>validateCheckout({...valid,...override},products));});
+test('reviews require valid text and a discrete 1–5 rating',()=>{const r={name:'A Person',title:'Beautiful art',text:'A genuinely lovely digital edition for a quiet corner.',rating:5};assert.equal(validateReview(r).rating,5);assert.throws(()=>validateReview({...r,rating:5.5}));assert.throws(()=>validateReview({...r,text:'short'}));});
+test('product SEO never presents seeded reviews as real structured data',()=>{const meta=metaFor('/art/tree-of-life',products,'https://shop.example');assert.equal(meta.notFound,false);assert.ok(meta.jsonLd.some(x=>x['@type']==='Product'));assert.ok(!JSON.stringify(meta.jsonLd).includes('aggregateRating'));assert.ok(!JSON.stringify(meta.jsonLd).includes('reviewRating'));assert.ok(headFor(meta,'https://shop.example').includes('rel="canonical"'));});
+test('private routes are noindex and sitemap only includes public pages',()=>{assert.equal(metaFor('/library?token=secret',products).robots,'noindex, nofollow');const map=sitemapFor(products,'https://shop.example');assert.ok(!map.includes('/library'));assert.ok(!map.includes('/checkout'));assert.ok(map.includes('/art/tree-of-life'));assert.equal(metaFor('/art/missing',products).notFound,true);});

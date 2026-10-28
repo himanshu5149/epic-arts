@@ -1,0 +1,66 @@
+[
+  {
+    "path": "/",
+    "violations": []
+  },
+  {
+    "path": "/shop",
+    "violations": []
+  },
+  {
+    "path": "/shop?page=2",
+    "violations": []
+  },
+  {
+    "path": "/studio",
+    "violations": []
+  },
+  {
+    "path": "/collections",
+    "violations": []
+  },
+  {
+    "path": "/trending",
+    "violations": []
+  },
+  {
+    "path": "/art/mithila-garden-003",
+    "violations": []
+  },
+  {
+    "path": "/art/tree-of-life",
+    "violations": []
+  },
+  {
+    "path": "/library",
+    "violations": []
+  },
+  {
+    "path": "/faq",
+    "violations": []
+  },
+  {
+    "path": "/print-guide",
+    "violations": []
+  },
+  {
+    "path": "/journal",
+    "violations": []
+  },
+  {
+    "path": "/our-story",
+    "violations": []
+  },
+  {
+    "path": "/policies/privacy",
+    "violations": []
+  },
+  {
+    "path": "/journal/stories-in-mithila",
+    "violations": []
+  },
+  {
+    "path": "/checkout",
+    "violations": []
+  }
+]

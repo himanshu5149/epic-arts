@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "checks": [
+    "all 1,032 catalog products traversed in bounded pages",
+    "pagination and reload without 1,000-card DOM",
+    "combined indexed style and palette filter",
+    "optional image AI honestly disabled without credentials",
+    "real no-key generation job, persistent recipe and purchasable edition",
+    "generated studio result and history accessibility",
+    "personal edition cart survives reload",
+    "create → demo checkout → private library → real nine-file ZIP",
+    "unlisted studio capability, paid-order gating and cross-device token access",
+    "studio, order, token and private preview exclusion from PWA cache",
+    "malformed IDs rejected without server error",
+    "30 additional responsive layouts, 320–1440 px"
+  ],
+  "orders": [
+    "EA-261024-9970DC"
+  ],
+  "privateProducts": [
+    "studio-5a8f13acfc52e05a88fd508e0a47e1d8"
+  ],
+  "catalogProducts": 1032,
+  "pageRequests": 43,
+  "p95LocalRequestMs": 9,
+  "generatedZipBytes": 2481669,
+  "browserErrors": [],
+  "overflows": []
+}

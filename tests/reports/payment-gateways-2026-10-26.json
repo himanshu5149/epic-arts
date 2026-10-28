@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-26",
+  "feature": "Multi-gateway payments: demo + Stripe (cards & wallets) + Razorpay (UPI/cards/netbanking/wallets, INR) + PayPal (Orders API v2)",
+  "tests": "64/64 incl. 12 gateway tests",
+  "sandboxKeys": "none configured — demo only, as designed",
+  "evidence": {
+    "config": {
+      "gateways": [
+        "demo"
+      ],
+      "inrRate": null
+    },
+    "checkout-razorpay": {
+      "status": 503,
+      "honestMessage": "UPI & netbanking checkout is not configured. No payment was collected."
+    },
+    "checkout-paypal": {
+      "status": 503,
+      "honestMessage": "PayPal checkout is not configured. No payment was collected."
+    },
+    "checkout-stripe": {
+      "status": 503,
+      "honestMessage": "Live payments are not configured. No payment was collected."
+    },
+    "badMode": 400,
+    "demoCheckout": {
+      "status": 201,
+      "gateway": "demo",
+      "orderStatus": "demo"
+    },
+    "demoDownload": {
+      "status": 200,
+      "type": "application/zip"
+    },
+    "hostedPage404": 404,
+    "callbackGuards": 400,
+    "paypalReturn": 404,
+    "webhook503": 503,
+    "checkoutPage": 200,
+    "migration": [
+      "gateway",
+      "gateway_ref"
+    ],
+    "errorHandlerNote": "503 availability messages pass through deliberately; only genuine 5xx surprises are masked."
+  }
+}

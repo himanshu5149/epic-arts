@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "commit": "6c16b23f1bacd0fdf240bb5141ef45e59e82c306",
+  "checks": {
+    "package.json": true,
+    "package-lock.json": true,
+    "shared/designs.mjs": true,
+    "server/art-engine.mjs": true,
+    "server/catalog.mjs": true,
+    "server/renderer.mjs": true,
+    "server/studio.mjs": true,
+    "server/core.mjs": true,
+    "server/db.mjs": true,
+    "vendor/awesome-llm-apps/references/trust_gated_agents.py": true,
+    "vendor/awesome-llm-apps/references/design_agent_team.py": true,
+    "vendor/awesome-llm-apps/references/agentic_rag_gpt5.py": true,
+    ".agents/skills/dependency-doctor/README.md": true,
+    ".agents/skills/dependency-doctor/SKILL.md": true,
+    ".agents/skills/dependency-doctor/references/dependency-pitfalls.md": true,
+    ".agents/skills/dependency-doctor/scripts/dep_doctor.py": true,
+    ".agents/skills/scope-creep-detector/README.md": true,
+    ".agents/skills/scope-creep-detector/SKILL.md": true,
+    ".agents/skills/scope-creep-detector/references/scope-signals.md": true,
+    ".agents/skills/scope-creep-detector/scripts/scope_creep.py": true
+  },
+  "unchangedNpmManifests": true,
+  "runtimeDependenciesAdded": 0
+}

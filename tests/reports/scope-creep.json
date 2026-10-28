@@ -1,0 +1,818 @@
+{
+  "api_renames": [],
+  "config_edits": [
+    {
+      "churn": 3,
+      "kind": "build",
+      "path": "Dockerfile"
+    }
+  ],
+  "in_scope": [
+    {
+      "additions": 56,
+      "deletions": 0,
+      "overlap": [
+        "skills"
+      ],
+      "path": ".agents/skills/dependency-doctor/README.md",
+      "reasons": [
+        "intent/path overlap: skills"
+      ],
+      "relatedness": 0.043,
+      "signals": [],
+      "subsystem": ".agents"
+    },
+    {
+      "additions": 151,
+      "deletions": 0,
+      "overlap": [
+        "skills"
+      ],
+      "path": ".agents/skills/dependency-doctor/SKILL.md",
+      "reasons": [
+        "intent/path overlap: skills",
+        "oversized hunk"
+      ],
+      "relatedness": 0.043,
+      "signals": [
+        "oversized_hunk"
+      ],
+      "subsystem": ".agents"
+    },
+    {
+      "additions": 74,
+      "deletions": 0,
+      "overlap": [
+        "skills"
+      ],
+      "path": ".agents/skills/dependency-doctor/references/dependency-pitfalls.md",
+      "reasons": [
+        "intent/path overlap: skills"
+      ],
+      "relatedness": 0.043,
+      "signals": [],
+      "subsystem": ".agents"
+    },
+    {
+      "additions": 485,
+      "deletions": 0,
+      "overlap": [
+        "skills"
+      ],
+      "path": ".agents/skills/dependency-doctor/scripts/dep_doctor.py",
+      "reasons": [
+        "intent/path overlap: skills",
+        "oversized hunk"
+      ],
+      "relatedness": 0.043,
+      "signals": [
+        "oversized_hunk"
+      ],
+      "subsystem": ".agents"
+    },
+    {
+      "additions": 35,
+      "deletions": 0,
+      "overlap": [
+        "skills"
+      ],
+      "path": ".agents/skills/scope-creep-detector/README.md",
+      "reasons": [
+        "intent/path overlap: skills"
+      ],
+      "relatedness": 0.043,
+      "signals": [],
+      "subsystem": ".agents"
+    },
+    {
+      "additions": 136,
+      "deletions": 0,
+      "overlap": [
+        "skills"
+      ],
+      "path": ".agents/skills/scope-creep-detector/SKILL.md",
+      "reasons": [
+        "intent/path overlap: skills",
+        "oversized hunk"
+      ],
+      "relatedness": 0.043,
+      "signals": [
+        "oversized_hunk"
+      ],
+      "subsystem": ".agents"
+    },
+    {
+      "additions": 83,
+      "deletions": 0,
+      "overlap": [
+        "skills"
+      ],
+      "path": ".agents/skills/scope-creep-detector/references/scope-signals.md",
+      "reasons": [
+        "intent/path overlap: skills",
+        "oversized hunk"
+      ],
+      "relatedness": 0.043,
+      "signals": [
+        "oversized_hunk"
+      ],
+      "subsystem": ".agents"
+    },
+    {
+      "additions": 528,
+      "deletions": 0,
+      "overlap": [
+        "skills"
+      ],
+      "path": ".agents/skills/scope-creep-detector/scripts/scope_creep.py",
+      "reasons": [
+        "intent/path overlap: skills",
+        "oversized hunk"
+      ],
+      "relatedness": 0.043,
+      "signals": [
+        "oversized_hunk"
+      ],
+      "subsystem": ".agents"
+    },
+    {
+      "additions": 138,
+      "deletions": 0,
+      "overlap": [
+        "agent"
+      ],
+      "path": "AGENT-SYSTEM.md",
+      "reasons": [
+        "intent/path overlap: agent",
+        "oversized hunk"
+      ],
+      "relatedness": 0.043,
+      "signals": [
+        "oversized_hunk"
+      ],
+      "subsystem": "(root)"
+    },
+    {
+      "additions": 14,
+      "deletions": 0,
+      "overlap": [
+        "epic",
+        "skills"
+      ],
+      "path": "skills/epic-curator/SKILL.md",
+      "reasons": [
+        "intent/path overlap: epic, skills"
+      ],
+      "relatedness": 0.087,
+      "signals": [],
+      "subsystem": "skills"
+    },
+    {
+      "additions": 14,
+      "deletions": 0,
+      "overlap": [
+        "epic",
+        "skills"
+      ],
+      "path": "skills/epic-heritage/SKILL.md",
+      "reasons": [
+        "intent/path overlap: epic, skills"
+      ],
+      "relatedness": 0.087,
+      "signals": [],
+      "subsystem": "skills"
+    },
+    {
+      "additions": 14,
+      "deletions": 0,
+      "overlap": [
+        "epic",
+        "skills"
+      ],
+      "path": "skills/epic-print/SKILL.md",
+      "reasons": [
+        "intent/path overlap: epic, skills"
+      ],
+      "relatedness": 0.087,
+      "signals": [],
+      "subsystem": "skills"
+    },
+    {
+      "additions": 14,
+      "deletions": 0,
+      "overlap": [
+        "epic",
+        "skills"
+      ],
+      "path": "skills/epic-stylist/SKILL.md",
+      "reasons": [
+        "intent/path overlap: epic, skills"
+      ],
+      "relatedness": 0.087,
+      "signals": [],
+      "subsystem": "skills"
+    },
+    {
+      "additions": 86,
+      "deletions": 0,
+      "overlap": [
+        "advisor"
+      ],
+      "path": "src/pages/Advisor.tsx",
+      "reasons": [
+        "intent/path overlap: advisor",
+        "oversized hunk"
+      ],
+      "relatedness": 0.043,
+      "signals": [
+        "oversized_hunk"
+      ],
+      "subsystem": "src"
+    },
+    {
+      "additions": 11,
+      "deletions": 0,
+      "overlap": [
+        "advisor"
+      ],
+      "path": "src/styles/advisor.css",
+      "reasons": [
+        "intent/path overlap: advisor"
+      ],
+      "relatedness": 0.043,
+      "signals": [],
+      "subsystem": "src"
+    },
+    {
+      "additions": 201,
+      "deletions": 0,
+      "overlap": [
+        "apps",
+        "awesome",
+        "llm"
+      ],
+      "path": "vendor/awesome-llm-apps/LICENSE",
+      "reasons": [
+        "intent/path overlap: apps, awesome, llm",
+        "oversized hunk"
+      ],
+      "relatedness": 0.13,
+      "signals": [
+        "oversized_hunk"
+      ],
+      "subsystem": "vendor"
+    },
+    {
+      "additions": 64,
+      "deletions": 0,
+      "overlap": [
+        "apps",
+        "awesome",
+        "llm"
+      ],
+      "path": "vendor/awesome-llm-apps/provenance.json",
+      "reasons": [
+        "intent/path overlap: apps, awesome, llm"
+      ],
+      "relatedness": 0.13,
+      "signals": [],
+      "subsystem": "vendor"
+    },
+    {
+      "additions": 217,
+      "deletions": 0,
+      "overlap": [
+        "apps",
+        "awesome",
+        "llm"
+      ],
+      "path": "vendor/awesome-llm-apps/references/agentic_rag_gpt5.py",
+      "reasons": [
+        "intent/path overlap: apps, awesome, llm",
+        "oversized hunk"
+      ],
+      "relatedness": 0.13,
+      "signals": [
+        "oversized_hunk"
+      ],
+      "subsystem": "vendor"
+    },
+    {
+      "additions": 264,
+      "deletions": 0,
+      "overlap": [
+        "agent",
+        "apps",
+        "awesome",
+        "llm"
+      ],
+      "path": "vendor/awesome-llm-apps/references/design_agent_team.py",
+      "reasons": [
+        "intent/path overlap: agent, apps, awesome, llm",
+        "oversized hunk"
+      ],
+      "relatedness": 0.174,
+      "signals": [
+        "oversized_hunk"
+      ],
+      "subsystem": "vendor"
+    },
+    {
+      "additions": 651,
+      "deletions": 0,
+      "overlap": [
+        "apps",
+        "awesome",
+        "llm"
+      ],
+      "path": "vendor/awesome-llm-apps/references/trust_gated_agents.py",
+      "reasons": [
+        "intent/path overlap: apps, awesome, llm",
+        "oversized hunk"
+      ],
+      "relatedness": 0.13,
+      "signals": [
+        "oversized_hunk"
+      ],
+      "subsystem": "vendor"
+    }
+  ],
+  "intent": "Integrate a guarded Epic Arts advisor agent workflow and reviewed awesome-llm-apps skills, with budget-safe collections, source attribution, private resumable orchestration, and preserved commerce.",
+  "likely_creep": [
+    {
+      "additions": 3,
+      "deletions": 0,
+      "overlap": [],
+      "path": ".dockerignore",
+      "reasons": [
+        "no intent/path keyword overlap"
+      ],
+      "relatedness": 0.0,
+      "signals": [],
+      "subsystem": "(root)"
+    },
+    {
+      "additions": 13,
+      "deletions": 0,
+      "overlap": [],
+      "path": ".env.example",
+      "reasons": [
+        "no intent/path keyword overlap"
+      ],
+      "relatedness": 0.0,
+      "signals": [],
+      "subsystem": "(root)"
+    },
+    {
+      "additions": 20,
+      "deletions": 0,
+      "overlap": [],
+      "path": "AGENTS.md",
+      "reasons": [
+        "no intent/path keyword overlap"
+      ],
+      "relatedness": 0.0,
+      "signals": [],
+      "subsystem": "(root)"
+    },
+    {
+      "additions": 23,
+      "deletions": 3,
+      "overlap": [],
+      "path": "ARCHITECTURE.md",
+      "reasons": [
+        "no intent/path keyword overlap"
+      ],
+      "relatedness": 0.0,
+      "signals": [],
+      "subsystem": "(root)"
+    },
+    {
+      "additions": 3,
+      "deletions": 0,
+      "overlap": [],
+      "path": "Dockerfile",
+      "reasons": [
+        "no intent/path keyword overlap",
+        "config edit"
+      ],
+      "relatedness": 0.0,
+      "signals": [
+        "config_edit"
+      ],
+      "subsystem": "(root)"
+    },
+    {
+      "additions": 26,
+      "deletions": 4,
+      "overlap": [],
+      "path": "README.md",
+      "reasons": [
+        "no intent/path keyword overlap"
+      ],
+      "relatedness": 0.0,
+      "signals": [],
+      "subsystem": "(root)"
+    },
+    {
+      "additions": 67,
+      "deletions": 44,
+      "overlap": [],
+      "path": "TEST-RESULTS.md",
+      "reasons": [
+        "no intent/path keyword overlap",
+        "oversized hunk"
+      ],
+      "relatedness": 0.0,
+      "signals": [
+        "oversized_hunk"
+      ],
+      "subsystem": "(root)"
+    },
+    {
+      "additions": 34,
+      "deletions": 0,
+      "overlap": [],
+      "path": "THIRD-PARTY-NOTICES.md",
+      "reasons": [
+        "no intent/path keyword overlap"
+      ],
+      "relatedness": 0.0,
+      "signals": [],
+      "subsystem": "(root)"
+    },
+    {
+      "additions": 1,
+      "deletions": 1,
+      "overlap": [],
+      "path": "public/sw.js",
+      "reasons": [
+        "no intent/path keyword overlap"
+      ],
+      "relatedness": 0.0,
+      "signals": [],
+      "subsystem": "public"
+    },
+    {
+      "additions": 31,
+      "deletions": 0,
+      "overlap": [],
+      "path": "server/agents/audit.mjs",
+      "reasons": [
+        "no intent/path keyword overlap"
+      ],
+      "relatedness": 0.0,
+      "signals": [],
+      "subsystem": "server"
+    },
+    {
+      "additions": 80,
+      "deletions": 0,
+      "overlap": [],
+      "path": "server/agents/index.mjs",
+      "reasons": [
+        "no intent/path keyword overlap"
+      ],
+      "relatedness": 0.0,
+      "signals": [],
+      "subsystem": "server"
+    },
+    {
+      "additions": 31,
+      "deletions": 0,
+      "overlap": [],
+      "path": "server/agents/knowledge.mjs",
+      "reasons": [
+        "no intent/path keyword overlap"
+      ],
+      "relatedness": 0.0,
+      "signals": [],
+      "subsystem": "server"
+    },
+    {
+      "additions": 101,
+      "deletions": 0,
+      "overlap": [],
+      "path": "server/agents/planner.mjs",
+      "reasons": [
+        "no intent/path keyword overlap",
+        "oversized hunk"
+      ],
+      "relatedness": 0.0,
+      "signals": [
+        "oversized_hunk"
+      ],
+      "subsystem": "server"
+    },
+    {
+      "additions": 42,
+      "deletions": 0,
+      "overlap": [],
+      "path": "server/agents/provider.mjs",
+      "reasons": [
+        "no intent/path keyword overlap"
+      ],
+      "relatedness": 0.0,
+      "signals": [],
+      "subsystem": "server"
+    },
+    {
+      "additions": 15,
+      "deletions": 6,
+      "overlap": [],
+      "path": "server/index.mjs",
+      "reasons": [
+        "no intent/path keyword overlap"
+      ],
+      "relatedness": 0.0,
+      "signals": [],
+      "subsystem": "server"
+    },
+    {
+      "additions": 10,
+      "deletions": 0,
+      "overlap": [],
+      "path": "shared/agents.mjs",
+      "reasons": [
+        "no intent/path keyword overlap"
+      ],
+      "relatedness": 0.0,
+      "signals": [],
+      "subsystem": "shared"
+    },
+    {
+      "additions": 2,
+      "deletions": 1,
+      "overlap": [],
+      "path": "shared/seo.mjs",
+      "reasons": [
+        "no intent/path keyword overlap"
+      ],
+      "relatedness": 0.0,
+      "signals": [],
+      "subsystem": "shared"
+    },
+    {
+      "additions": 2,
+      "deletions": 1,
+      "overlap": [],
+      "path": "src/App.tsx",
+      "reasons": [
+        "no intent/path keyword overlap"
+      ],
+      "relatedness": 0.0,
+      "signals": [],
+      "subsystem": "src"
+    },
+    {
+      "additions": 1,
+      "deletions": 1,
+      "overlap": [],
+      "path": "src/components/Footer.tsx",
+      "reasons": [
+        "no intent/path keyword overlap"
+      ],
+      "relatedness": 0.0,
+      "signals": [],
+      "subsystem": "src"
+    },
+    {
+      "additions": 2,
+      "deletions": 2,
+      "overlap": [],
+      "path": "src/components/Header.tsx",
+      "reasons": [
+        "no intent/path keyword overlap"
+      ],
+      "relatedness": 0.0,
+      "signals": [],
+      "subsystem": "src"
+    },
+    {
+      "additions": 1,
+      "deletions": 1,
+      "overlap": [],
+      "path": "src/pages/Home.tsx",
+      "reasons": [
+        "no intent/path keyword overlap"
+      ],
+      "relatedness": 0.0,
+      "signals": [],
+      "subsystem": "src"
+    },
+    {
+      "additions": 1,
+      "deletions": 1,
+      "overlap": [],
+      "path": "src/pages/Info.tsx",
+      "reasons": [
+        "no intent/path keyword overlap"
+      ],
+      "relatedness": 0.0,
+      "signals": [],
+      "subsystem": "src"
+    },
+    {
+      "additions": 4,
+      "deletions": 2,
+      "overlap": [],
+      "path": "src/pages/Studio.tsx",
+      "reasons": [
+        "no intent/path keyword overlap"
+      ],
+      "relatedness": 0.0,
+      "signals": [],
+      "subsystem": "src"
+    },
+    {
+      "additions": 2,
+      "deletions": 0,
+      "overlap": [],
+      "path": "src/styles.css",
+      "reasons": [
+        "no intent/path keyword overlap"
+      ],
+      "relatedness": 0.0,
+      "signals": [],
+      "subsystem": "src"
+    },
+    {
+      "additions": 3,
+      "deletions": 2,
+      "overlap": [],
+      "path": "tests/accessibility.mjs",
+      "reasons": [
+        "no intent/path keyword overlap"
+      ],
+      "relatedness": 0.0,
+      "signals": [],
+      "subsystem": "tests"
+    },
+    {
+      "additions": 37,
+      "deletions": 0,
+      "overlap": [],
+      "path": "tests/agents-browser.mjs",
+      "reasons": [
+        "no intent/path keyword overlap"
+      ],
+      "relatedness": 0.0,
+      "signals": [],
+      "subsystem": "tests"
+    },
+    {
+      "additions": 110,
+      "deletions": 0,
+      "overlap": [],
+      "path": "tests/agents.test.mjs",
+      "reasons": [
+        "no intent/path keyword overlap",
+        "oversized hunk"
+      ],
+      "relatedness": 0.0,
+      "signals": [
+        "oversized_hunk"
+      ],
+      "subsystem": "tests"
+    },
+    {
+      "additions": 1,
+      "deletions": 1,
+      "overlap": [],
+      "path": "tests/e2e.mjs",
+      "reasons": [
+        "no intent/path keyword overlap"
+      ],
+      "relatedness": 0.0,
+      "signals": [],
+      "subsystem": "tests"
+    },
+    {
+      "additions": 4,
+      "deletions": 3,
+      "overlap": [],
+      "path": "tests/mobile.mjs",
+      "reasons": [
+        "no intent/path keyword overlap"
+      ],
+      "relatedness": 0.0,
+      "signals": [],
+      "subsystem": "tests"
+    },
+    {
+      "additions": 3,
+      "deletions": 2,
+      "overlap": [],
+      "path": "tests/overlay-a11y.mjs",
+      "reasons": [
+        "no intent/path keyword overlap"
+      ],
+      "relatedness": 0.0,
+      "signals": [],
+      "subsystem": "tests"
+    },
+    {
+      "additions": 3,
+      "deletions": 1,
+      "overlap": [],
+      "path": "vite.config.ts",
+      "reasons": [
+        "no intent/path keyword overlap"
+      ],
+      "relatedness": 0.0,
+      "signals": [],
+      "subsystem": "(root)"
+    }
+  ],
+  "new_deps": [],
+  "stats": {
+    "additions": 3912,
+    "deletions": 76,
+    "files_touched": 51,
+    "formatting_only_files": [],
+    "hunk_threshold": 80,
+    "oversized_hunks": [
+      {
+        "churn": 151,
+        "hunk": "@@ -0,0 +1,151 @@",
+        "path": ".agents/skills/dependency-doctor/SKILL.md"
+      },
+      {
+        "churn": 485,
+        "hunk": "@@ -0,0 +1,485 @@",
+        "path": ".agents/skills/dependency-doctor/scripts/dep_doctor.py"
+      },
+      {
+        "churn": 136,
+        "hunk": "@@ -0,0 +1,136 @@",
+        "path": ".agents/skills/scope-creep-detector/SKILL.md"
+      },
+      {
+        "churn": 83,
+        "hunk": "@@ -0,0 +1,83 @@",
+        "path": ".agents/skills/scope-creep-detector/references/scope-signals.md"
+      },
+      {
+        "churn": 528,
+        "hunk": "@@ -0,0 +1,528 @@",
+        "path": ".agents/skills/scope-creep-detector/scripts/scope_creep.py"
+      },
+      {
+        "churn": 138,
+        "hunk": "@@ -0,0 +1,138 @@",
+        "path": "AGENT-SYSTEM.md"
+      },
+      {
+        "churn": 111,
+        "hunk": "@@ -1,65 +1,88 @@",
+        "path": "TEST-RESULTS.md"
+      },
+      {
+        "churn": 101,
+        "hunk": "@@ -0,0 +1,101 @@",
+        "path": "server/agents/planner.mjs"
+      },
+      {
+        "churn": 86,
+        "hunk": "@@ -0,0 +1,86 @@",
+        "path": "src/pages/Advisor.tsx"
+      },
+      {
+        "churn": 110,
+        "hunk": "@@ -0,0 +1,110 @@",
+        "path": "tests/agents.test.mjs"
+      },
+      {
+        "churn": 201,
+        "hunk": "@@ -0,0 +1,201 @@",
+        "path": "vendor/awesome-llm-apps/LICENSE"
+      },
+      {
+        "churn": 217,
+        "hunk": "@@ -0,0 +1,217 @@",
+        "path": "vendor/awesome-llm-apps/references/agentic_rag_gpt5.py"
+      },
+      {
+        "churn": 264,
+        "hunk": "@@ -0,0 +1,264 @@",
+        "path": "vendor/awesome-llm-apps/references/design_agent_team.py"
+      },
+      {
+        "churn": 651,
+        "hunk": "@@ -0,0 +1,651 @@",
+        "path": "vendor/awesome-llm-apps/references/trust_gated_agents.py"
+      }
+    ],
+    "subsystems": {
+      "(root)": 10,
+      ".agents": 8,
+      "public": 1,
+      "server": 6,
+      "shared": 2,
+      "skills": 4,
+      "src": 9,
+      "tests": 6,
+      "vendor": 5
+    }
+  }
+}

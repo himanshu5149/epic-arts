@@ -1,0 +1,12 @@
+import {chromium} from '@playwright/test';
+const browser=await chromium.launch({headless:true});
+const page=await browser.newPage({viewport:{width:1440,height:1000},deviceScaleFactor:1});
+const errors=[];page.on('pageerror',e=>errors.push(e.message));page.on('console',m=>{if(m.type()==='error')errors.push(m.text());});
+await page.goto('http://localhost:3000/',{waitUntil:'networkidle'});await page.evaluate(()=>document.fonts.ready);await page.screenshot({path:'tests/screenshots/home-desktop.png'});
+await page.locator('#gallery').scrollIntoViewIfNeeded();await page.screenshot({path:'tests/screenshots/catalog-desktop.png'});
+console.log('Desktop title:',await page.title(),'products:',await page.locator('.product-card').count());
+await page.goto('http://localhost:3000/art/tree-of-life',{waitUntil:'networkidle'});await page.screenshot({path:'tests/screenshots/product-desktop.png'});
+const mobile=await browser.newPage({viewport:{width:390,height:844},deviceScaleFactor:1,isMobile:true,hasTouch:true});
+mobile.on('pageerror',e=>errors.push(e.message));await mobile.goto('http://localhost:3000/',{waitUntil:'networkidle'});await mobile.screenshot({path:'tests/screenshots/home-mobile.png'});await mobile.locator('#gallery').scrollIntoViewIfNeeded();await mobile.screenshot({path:'tests/screenshots/catalog-mobile.png'});
+console.log('Mobile horizontal overflow:',await mobile.evaluate(()=>document.documentElement.scrollWidth-window.innerWidth));
+console.log('Console/page errors:',JSON.stringify(errors));await browser.close();

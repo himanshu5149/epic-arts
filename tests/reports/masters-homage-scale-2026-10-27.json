@@ -1,0 +1,138 @@
+{
+  "date": "2026-10-27",
+  "feature": "8 public-domain master homages + catalog scaled to 100,808 editions",
+  "tests": "65/65",
+  "evidence": {
+    "home": {
+      "status": 200,
+      "countBadge": "100,808 ✓"
+    },
+    "healthCatalog": 100808,
+    "pagination": {
+      "total": 100808,
+      "pages": 2101
+    },
+    "routes": {
+      "/collections": 200,
+      "/shop?page=2101": 200,
+      "/art/starry-nocturne-1800": 500,
+      "/inspiration": 200,
+      "/checkout": 200
+    },
+    "previews": {
+      "hokusai-current": {
+        "status": 200,
+        "format": "webp",
+        "dim": "720x900",
+        "bytes": 20298,
+        "ms": 135
+      },
+      "starry-nocturne": {
+        "status": 200,
+        "format": "webp",
+        "dim": "720x900",
+        "bytes": 17812,
+        "ms": 85
+      },
+      "golden-adele": {
+        "status": 200,
+        "format": "webp",
+        "dim": "720x900",
+        "bytes": 34518,
+        "ms": 119
+      },
+      "sfumato-orb": {
+        "status": 200,
+        "format": "webp",
+        "dim": "720x900",
+        "bytes": 22900,
+        "ms": 82
+      },
+      "scream-dusk": {
+        "status": 200,
+        "format": "webp",
+        "dim": "720x900",
+        "bytes": 16976,
+        "ms": 84
+      },
+      "monet-lilies": {
+        "status": 200,
+        "format": "webp",
+        "dim": "720x900",
+        "bytes": 41646,
+        "ms": 118
+      },
+      "vermeer-window": {
+        "status": 200,
+        "format": "webp",
+        "dim": "720x900",
+        "bytes": 6456,
+        "ms": 81
+      },
+      "mucha-muse": {
+        "status": 200,
+        "format": "webp",
+        "dim": "720x900",
+        "bytes": 45180,
+        "ms": 161
+      }
+    },
+    "q:hokusai": 3600,
+    "q:klimt": 3600,
+    "q:salvator": 3600,
+    "q:vermeer": 3600,
+    "q:mucha": 3600,
+    "q:monet": 3600,
+    "sitemapBytes": 253798,
+    "masterPageHonesty": {
+      "publicDomain": false,
+      "noReproduction": false,
+      "noEndorsement": false
+    },
+    "totalMs": 1579,
+    "artPages": {
+      "/art/starry-nocturne-1800": {
+        "status": 200,
+        "honesty": {
+          "publicDomain": true,
+          "noRepro": true,
+          "noEndorsement": true
+        },
+        "title": "Starry Nocturne · Quiet Sand 225 — Digital Art Download | Ep"
+      },
+      "/art/golden-adele-2000": {
+        "status": 200,
+        "honesty": {
+          "publicDomain": true,
+          "noRepro": true,
+          "noEndorsement": true
+        },
+        "title": "Golden Adele · Quiet Sand 250 — Digital Art Download | Epic "
+      },
+      "/art/mithila-garden-001": {
+        "status": 200,
+        "title": "Mithila Garden · Heritage Earth 01 — Digital Art Download | "
+      },
+      "/art/hokusai-current-797": {
+        "status": 200,
+        "honesty": {
+          "publicDomain": true,
+          "noRepro": true,
+          "noEndorsement": true
+        },
+        "title": "In the Spirit of Hokusai · Rose &amp; Clay 100 — Digital Art"
+      },
+      "shopLastPage": 200,
+      "sitemap": {
+        "urls": 2019,
+        "bytes": 253798,
+        "hasArt1": true
+      }
+    },
+    "sitemap": {
+      "urls": 2019,
+      "bytes": 253798,
+      "hasArt1": true
+    }
+  }
+}

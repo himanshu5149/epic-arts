@@ -1,0 +1,35 @@
+{
+  "passed": true,
+  "devAdvisor": true,
+  "sourceProtection": [
+    {
+      "path": "/skills/epic-curator/SKILL.md",
+      "status": 404
+    },
+    {
+      "path": "/.agents/skills/dependency-doctor/SKILL.md",
+      "status": 404
+    },
+    {
+      "path": "/.cache/qa/agents/private.json",
+      "status": 404
+    },
+    {
+      "path": "/@fs/home/user/epic-arts/server/index.mjs",
+      "status": 403
+    },
+    {
+      "path": "/@fs/home/user/epic-arts/.cache/qa/agents/private.json",
+      "status": 403
+    },
+    {
+      "path": "/@fs/home/user/epic-arts/skills/epic-curator/SKILL.md",
+      "status": 403
+    },
+    {
+      "path": "/@fs/home/user/epic-arts/assets/source/tree-of-life.png",
+      "status": 403
+    }
+  ],
+  "errors": []
+}

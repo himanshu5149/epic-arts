@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-26",
+  "restored": true,
+  "mode": "production-demo",
+  "unitTestsPassed": 36,
+  "typeCheckPassed": true,
+  "buildPassed": true,
+  "pages": [
+    {
+      "path": "/",
+      "status": 200
+    },
+    {
+      "path": "/advisor",
+      "status": 200
+    },
+    {
+      "path": "/studio",
+      "status": 200
+    },
+    {
+      "path": "/shop?page=43",
+      "status": 200
+    },
+    {
+      "path": "/collections",
+      "status": 200
+    },
+    {
+      "path": "/trending",
+      "status": 200
+    }
+  ],
+  "catalogCount": 1032,
+  "publicPreview": {
+    "width": 720,
+    "height": 900
+  },
+  "originalArchiveBytes": 5169580,
+  "originalArchiveFiles": 6,
+  "modelConnected": false,
+  "imageAiConnected": false,
+  "livePayments": false,
+  "customerOrdersCreatedByResumeCheck": 0,
+  "note": "Previous browser/accessibility/layout results remain historical; those suites were not rerun during this restart."
+}

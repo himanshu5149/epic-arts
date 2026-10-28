@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-26",
+  "feature": "inspiration shelf via Art Institute of Chicago public API discovered in public-apis/public-apis commit 82e763ed",
+  "tests": "51/51",
+  "out": {
+    "routes": {
+      "/inspiration": {
+        "status": 200,
+        "cc": "public, max-age=0, must-revalidate"
+      },
+      "/celebrations": {
+        "status": 200,
+        "cc": "public, max-age=0, must-revalidate"
+      },
+      "/wall": {
+        "status": 200,
+        "cc": "public, max-age=0, must-revalidate"
+      },
+      "/": {
+        "status": 200,
+        "cc": "public, max-age=0, must-revalidate"
+      },
+      "/shop": {
+        "status": 200,
+        "cc": "public, max-age=0, must-revalidate"
+      },
+      "/print-guide": {
+        "status": 200,
+        "cc": "public, max-age=0, must-revalidate"
+      },
+      "/advisor": {
+        "status": 200,
+        "cc": "private, no-store"
+      },
+      "/studio": {
+        "status": 200,
+        "cc": "private, no-store"
+      },
+      "/library": {
+        "status": 200,
+        "cc": "private, no-store"
+      }
+    },
+    "inspiration": {
+      "title": true,
+      "chips": true
+    },
+    "sitemap": true,
+    "search": {
+      "status": 503,
+      "count": 0,
+      "source": null,
+      "offline": true,
+      "cc": "private, no-store"
+    },
+    "badQuery": 503,
+    "badThumb": 400
+  }
+}

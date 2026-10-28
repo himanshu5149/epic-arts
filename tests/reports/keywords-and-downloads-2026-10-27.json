@@ -1,0 +1,106 @@
+{
+  "date": "2026-10-27",
+  "keywordsMeta": {
+    "/": {
+      "metaKeywords": 17,
+      "checks": [
+        {
+          "kw": "mithila art",
+          "ok": true
+        },
+        {
+          "kw": "digital art download",
+          "ok": true
+        },
+        {
+          "kw": "public domain art prints",
+          "ok": true
+        }
+      ],
+      "jsonLdKeywords": false
+    },
+    "/shop": {
+      "metaKeywords": 22,
+      "checks": [
+        {
+          "kw": "100000 digital art editions",
+          "ok": true
+        },
+        {
+          "kw": "klimt inspired",
+          "ok": true
+        }
+      ],
+      "jsonLdKeywords": false
+    },
+    "/art/starry-nocturne-1800": {
+      "metaKeywords": 34,
+      "checks": [
+        {
+          "kw": "van gogh inspired art",
+          "ok": true
+        },
+        {
+          "kw": "starry night inspired wall art",
+          "ok": true
+        },
+        {
+          "kw": "world masters homage art",
+          "ok": true
+        },
+        {
+          "kw": "famous painting inspired print",
+          "ok": true
+        },
+        {
+          "kw": "print ready pdf art",
+          "ok": true
+        }
+      ],
+      "jsonLdKeywords": true
+    },
+    "/art/mithila-garden-001": {
+      "metaKeywords": 29,
+      "checks": [
+        {
+          "kw": "mithila garden · heritage earth 01",
+          "ok": true
+        },
+        {
+          "kw": "madhubani",
+          "ok": true
+        },
+        {
+          "kw": "print at home art",
+          "ok": true
+        }
+      ],
+      "jsonLdKeywords": true
+    },
+    "/celebrations": {
+      "metaKeywords": 17,
+      "checks": [
+        {
+          "kw": "wedding art gift",
+          "ok": true
+        },
+        {
+          "kw": "housewarming art gift",
+          "ok": true
+        }
+      ],
+      "jsonLdKeywords": false
+    },
+    "artPage": {
+      "keywordsSample": "starry nocturne · quiet sand 225, world masters art, neutral wall art, Post-impressionist homage skies, gogh, starry, night, homage, swirl, nocturne, cypress, moon…",
+      "productJsonLdKeywords": "starry nocturne · quiet sand 225, world masters art, neutral wall art, Post-impr"
+    },
+    "downloadRegression": {
+      "status": 200,
+      "type": "application/zip",
+      "bytes": 1093153,
+      "zip": true
+    }
+  },
+  "note": "/library fallback links + embedded-preview banner added client-side; downloads verified working via direct API endpoint"
+}

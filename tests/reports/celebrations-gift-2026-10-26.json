@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-26",
+  "feature": "celebrations page, gift orders with sealed reveal, gift field validation",
+  "tests": "47/47",
+  "isolatedFlow": "gift checkout 201→200 idempotent, gift persisted, changed gift 409; QA store deleted",
+  "checks": {
+    "/": {
+      "status": 200,
+      "cc": "public, max-age=0, must-revalidate"
+    },
+    "/celebrations": {
+      "status": 200,
+      "cc": "public, max-age=0, must-revalidate"
+    },
+    "/wall": {
+      "status": 200,
+      "cc": "public, max-age=0, must-revalidate"
+    },
+    "/checkout": {
+      "status": 200,
+      "cc": "private, no-store"
+    },
+    "/library": {
+      "status": 200,
+      "cc": "private, no-store"
+    },
+    "/shop": {
+      "status": 200,
+      "cc": "public, max-age=0, must-revalidate"
+    },
+    "/print-guide": {
+      "status": 200,
+      "cc": "public, max-age=0, must-revalidate"
+    },
+    "/advisor": {
+      "status": 200,
+      "cc": "private, no-store"
+    },
+    "/studio": {
+      "status": 200,
+      "cc": "private, no-store"
+    },
+    "celebrationsOk": {
+      "title": true,
+      "occasions": 3,
+      "giftCallout": true,
+      "wallLink": true
+    },
+    "sitemapHasCelebrations": true,
+    "wallStillWorking": true,
+    "libraryOk": true,
+    "demo": true,
+    "catalog": 1032
+  }
+}
