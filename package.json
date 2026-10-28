@@ -1,0 +1,40 @@
+{
+  "name": "epic-arts",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node server/index.mjs",
+    "build": "node scripts/generate-tools.mjs && vite build && vite build --ssr src/entry-server.tsx --outDir dist/server && node scripts/generate-seo.mjs",
+    "start": "NODE_ENV=production node server/index.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.10.0",
+    "compression": "^1.8.1",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^16.6.1",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.1.0",
+    "fflate": "^0.8.3",
+    "helmet": "^8.1.0",
+    "lucide-react": "^0.468.0",
+    "pdfkit": "^0.20.2",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-router-dom": "^7.9.4",
+    "sharp": "^0.35.5",
+    "stripe": "^19.1.0",
+    "svg-to-pdfkit": "^0.1.8"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.13.0",
+    "@playwright/test": "^1.56.0",
+    "@types/react": "^19.1.16",
+    "@types/react-dom": "^19.1.9",
+    "@vitejs/plugin-react": "^4.7.0",
+    "typescript": "^5.9.3",
+    "vite": "^6.3.6"
+  }
+}

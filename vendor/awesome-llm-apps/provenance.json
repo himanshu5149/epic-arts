@@ -1,0 +1,64 @@
+{
+  "repository": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+  "commit": "6c16b23f1bacd0fdf240bb5141ef45e59e82c306",
+  "license": "Apache-2.0",
+  "references": {
+    "vendor/awesome-llm-apps/references/trust_gated_agents.py": {
+      "upstreamPath": "advanced_ai_agents/multi_agent_apps/trust_gated_agent_team/trust_gated_agents.py",
+      "sha256": "fdb778fa6f55edda2e0aa24e64cde22c8409579b75b3da09930df36072b7c19b"
+    },
+    "vendor/awesome-llm-apps/references/design_agent_team.py": {
+      "upstreamPath": "advanced_ai_agents/multi_agent_apps/agent_teams/multimodal_design_agent_team/design_agent_team.py",
+      "sha256": "890b21dc0743e36da6162028a719c32279c8323b09578eaababe5b108ac68be7"
+    },
+    "vendor/awesome-llm-apps/references/agentic_rag_gpt5.py": {
+      "upstreamPath": "rag_tutorials/agentic_rag_gpt5/agentic_rag_gpt5.py",
+      "sha256": "d34b93f5cf92c375946bb728060bd12f1dd6bf218c524e678cbd6f9b825d0a75"
+    }
+  },
+  "skills": [
+    "agent_skills/dependency-doctor",
+    "agent_skills/scope-creep-detector"
+  ],
+  "copiedSkillFiles": {
+    ".agents/skills/dependency-doctor/README.md": {
+      "upstreamPath": "agent_skills/dependency-doctor/README.md",
+      "sha256": "458cacc34413fb5996562fe739d900d44175c32c4a6d8154c9eae4bf7333dd8b"
+    },
+    ".agents/skills/dependency-doctor/SKILL.md": {
+      "upstreamPath": "agent_skills/dependency-doctor/SKILL.md",
+      "sha256": "3b9a4728a8ec7daae2a82723d01c7a4c18cd2cf5851ea24faa5fdc3a779c6d09"
+    },
+    ".agents/skills/dependency-doctor/references/dependency-pitfalls.md": {
+      "upstreamPath": "agent_skills/dependency-doctor/references/dependency-pitfalls.md",
+      "sha256": "ec74d2361936cf9436ce65418a4d306988a39f108e327db6bc11a6cc379ad184"
+    },
+    ".agents/skills/dependency-doctor/scripts/dep_doctor.py": {
+      "upstreamPath": "agent_skills/dependency-doctor/scripts/dep_doctor.py",
+      "sha256": "5d4f4a70c76c4c727768cb0b05ffdc50b22ddb73a87fd6043b520c4cd8637704"
+    },
+    ".agents/skills/scope-creep-detector/README.md": {
+      "upstreamPath": "agent_skills/scope-creep-detector/README.md",
+      "sha256": "b233cc8b6113a01f27f952f37d3bbb1aeaa6f2dda9718efd7bf57ccafb54d6a0"
+    },
+    ".agents/skills/scope-creep-detector/SKILL.md": {
+      "upstreamPath": "agent_skills/scope-creep-detector/SKILL.md",
+      "sha256": "a21a28ce59694554c16ddc19cb3b27620b1e3e5040803df0e40b22f6a34da159"
+    },
+    ".agents/skills/scope-creep-detector/references/scope-signals.md": {
+      "upstreamPath": "agent_skills/scope-creep-detector/references/scope-signals.md",
+      "sha256": "c710c23e004cbc8c1e47b34eeafb41d441b8e7b4f7a37241da98f667a6e3da93"
+    },
+    ".agents/skills/scope-creep-detector/scripts/scope_creep.py": {
+      "upstreamPath": "agent_skills/scope-creep-detector/scripts/scope_creep.py",
+      "sha256": "d2b9c5f5931617b0065170b1e6a2780b1b0491e5942569acf73a2c6e2c6fb28b"
+    }
+  },
+  "domainSkillFiles": {
+    "skills/epic-curator/SKILL.md": "83dc2f816dc5967dfd90df19be8f2b567f700a3bc1bfbf3f59b611bdbd3befb5",
+    "skills/epic-heritage/SKILL.md": "eda747470f34d77bd25eb042a5a42cc43e3496b87c468300238c5ff0bf3f7672",
+    "skills/epic-print/SKILL.md": "0a7647cfbc5e4901acb7dd4127717263fd6cf500c4a2269c43fbe6afae0fab68",
+    "skills/epic-stylist/SKILL.md": "553ee9b600b8ed562b1b8408ca566cd23cdf064c76f42856e37be6665847a441"
+  },
+  "adaptationNotice": "THIRD-PARTY-NOTICES.md"
+}
